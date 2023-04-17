@@ -33,7 +33,7 @@ The votes are also counted based on the number of transactions made by the main 
 ## Installation
 Clone the repository from github or in your terminal run
 
-```git clone https://github.com/SenZmaKi/Hala-Blockchain-Voting-System```
+```git clone https://github.com/DavidManga254/Hala-Voting-System.git```
 
 Navigate to the installation directory via your terminal then navigate to the directory named Hala and run
 
