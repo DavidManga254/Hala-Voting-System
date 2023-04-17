@@ -1,0 +1,104 @@
+.voter-wrap{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color:#edf2f4;
+}
+.decision-wrap{
+    width: 75%;
+    margin: 0 auto;
+}
+.logo-wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.logo-wrap img{
+    width: 30%;
+}
+.voter-choice-wrap{
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+}
+.presidential-choice{
+    width: 40%;
+    margin-left: 2%;
+    margin-right: 2%;
+    position: relative;
+    bottom: -100%;
+    margin-bottom: 2%;
+    
+}
+.image-wrapper{
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}
+.presidential-choice img{
+    width: 100%;
+    aspect-ratio: 16/20;
+    pointer-events: none;
+    
+
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+.presidential-choice h3{
+    text-align: center;
+    pointer-events: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.voter-choice-wrap div:nth-child(1){
+    
+    animation: slidein .5s forwards;
+  
+  
+}
+.voter-choice-wrap div:nth-child(2){
+    animation: slidein .5s forwards;
+}
+.voter-choice-wrap div:nth-child(3){
+    animation: slidein .5s forwards;
+    
+}
+.voter-choice-wrap div:nth-child(4){
+    animation: slidein .5s forwards;
+    
+}
+.voter-choice-wrap div:nth-child(5){
+    animation: slidein .5s forwards;
+    
+}
+@keyframes slidein {
+    0% {
+        transform: translateY(100%);
+      }
+      100% {
+        transform: translateY(0);
+      }
+    
+}
+
+.vote-button{
+    display: flex;
+    justify-content: center;
+    
+}
+.vote-button button{
+    font-size: 1.5rem;
+    border-style: none;
+    background-color: #403d39;
+    color: white;
+    padding: 2%;
+}
+.vote-button button:hover{
+    cursor: pointer;
+}
+.is-selected{
+    background-color:#403d39;
+    color: white;
+}

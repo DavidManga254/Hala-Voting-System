@@ -1,0 +1,36 @@
+.Preloader{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color:white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+    animation-name: slideout;
+    animation-duration: 1s;
+    animation-delay: 3s;
+}
+.texts-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    width: 1080px;
+    overflow: hidden;
+}
+.texts-container span{
+    width: 150px;
+}
+@keyframes slideout{
+    from{
+        translate: 0px 0px;
+    }
+    to{
+        translate: 0px 900px;
+    }
+}

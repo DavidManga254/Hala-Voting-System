@@ -1,0 +1,45 @@
+.results-wrap{
+    background-color: #edf2f4;
+}
+.votes-results{
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+.specific-participant{
+    width: 100%;
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.participant-photo{
+    flex-basis: 10%;
+}
+.participant-results{
+    flex-basis: 90%;
+}
+.participant-photo img{
+    width: 100%;
+    aspect-ratio: 16/20;
+}
+.participant-name{
+    margin-left: 2%;
+}
+.participant-name h3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: start;
+}
+.participant-resulter h3{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: start;
+}
+.participant-resulter{
+    margin-left: 2%;
+}
+.header{
+    font-size: 2.5rem;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
