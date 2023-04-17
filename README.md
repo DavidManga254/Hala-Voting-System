@@ -2,8 +2,11 @@
 Welcome to the Hala blockchain voting system on the Algorand Network! Here's the readme to help you get started with using our system.
 
 ## Introduction
-Hala is a secure and transparent blockchain voting system that allows voters to cast their votes for candidates on the Algorand Network. The system has a main account and candidate accounts for each vote cast, a transaction is made from the main account to the candidate account of the candidate who was voted for. 
-To prevent fake votes, the system generates and attaches an encrypted voter ID to the transaction notes of each successful vote, this is what is used to validate votes.
+Hala is a secure and transparent blockchain voting system that allows voters to cast their votes for candidates on the Algorand Network. This system was inspired by the events of 2022 post elections in Kenya regarding the genuinity of the national presidential results. Having the data stored in the blockchain(but in an encrypted version) ensures that the data cannot be altered once made and thus votes will be viewed as they were
+
+The system is powered by algorand blockchain technology.It runs under a sender main account(voting system) and four(or more) candidate receiver accounts(aspiring candidates). For each vote cast, a transaction is made from the main account to the candidate account of the candidate who was voted for. 
+To prevent fake votes, the system generates and attaches an encrypted voter ID to the transaction notes of each successful vote, this is what is used to validate votes and also the voters.
+
 
 ## How Hala works
 
