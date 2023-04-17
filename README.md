@@ -25,6 +25,9 @@ If the encrypted voter ID is not in the system, the system accepts the vote and 
 
 <image src="https://raw.githubusercontent.com/SenZmaKi/Hala-Blockchain-Voting-System/master/screenshots/succesful-vote.jpeg">
 
+In terms of voter count, the votes are counted by how many number of transactions were made to which account by the main account. This is to prevent potential counting fake votes by counting transactions from the receiver accounts
+<img src="https://raw.githubusercontent.com/DavidManga254/Hala-Voting-System/main/src/assets/WhatsApp%20Image%202023-04-16%20at%2018.32.11.jpg">
+
 ## Smart Contract
 To handle cases where transactions are made to the candidate accounts outside our system, we have a smart contract that makes the candidate accounts reject transactions that aren't made from the main account. This ensures that all votes are accounted for and there is no tampering with the voting process.
 The votes are also counted based on the number of transactions made by the main account to each candidate account instead of the balance of the candidate accounts.
