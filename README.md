@@ -59,6 +59,18 @@ Then run
 
 ```node --experimental-modules server.cjs```
 
+
+## Configuration
+
+The backend reads its secrets from environment variables. Set these before starting `server.cjs`:
+
+```
+PURESTAKE_API_KEY=       # PureStake / Algorand API key for the testnet node
+MAIN_ACCOUNT_MNEMONIC=   # 25-word seed phrase of the main (sender) test account
+```
+
+Use a throwaway testnet account. Never put a seed phrase for an account that holds real funds in this project.
+
 ## Conclusion
 The Hala blockchain voting system is a secure and transparent way for voters to cast their votes. With the use of encrypted voter IDs and a smart contract to ensure the validity of the votes, the system is designed to prevent fraudulent activities and ensure a fair and accurate election.
 
