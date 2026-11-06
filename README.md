@@ -1,5 +1,5 @@
 # Hala-Blockchain-Voting-System
-**Hala won the Algorand competition in Kenya in 2023.**
+**Hala placed third in the Algorand competition in Kenya in 2023.**
 
 Welcome to the Hala blockchain voting system on the Algorand Network! Here's the readme to help you get started with using our system.
 
